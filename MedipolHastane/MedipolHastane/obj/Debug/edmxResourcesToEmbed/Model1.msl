@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="mdplhasModelStoreContainer" CdmEntityContainer="mdplhasEntities">
+    <EntitySetMapping Name="tbl_dok">
+      <EntityTypeMapping TypeName="mdplhasModel.tbl_dok">
+        <MappingFragment StoreEntitySet="tbl_dok">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="adsoyad" ColumnName="adsoyad" />
+          <ScalarProperty Name="tc" ColumnName="tc" />
+          <ScalarProperty Name="bolum" ColumnName="bolum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_hasta">
+      <EntityTypeMapping TypeName="mdplhasModel.tbl_hasta">
+        <MappingFragment StoreEntitySet="tbl_hasta">
+          <ScalarProperty Name="bolum" ColumnName="bolum" />
+          <ScalarProperty Name="tc" ColumnName="tc" />
+          <ScalarProperty Name="adsoyad" ColumnName="adsoyad" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_blm">
+      <EntityTypeMapping TypeName="mdplhasModel.tbl_blm">
+        <MappingFragment StoreEntitySet="tbl_blm">
+          <ScalarProperty Name="bolum" ColumnName="bolum" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
